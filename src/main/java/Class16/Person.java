@@ -21,5 +21,17 @@ public class Person {
         System.out.println(name + " " + age + " " + weight + " " + gender);
     }
 
+    public static class CatTester {
+        public static void main(String[] args) {
+
+            //Cat obj=new Cat();
+            //obj.printInfo();
+
+            Cat obj2=new Cat("black","blue",2,
+                    'M',15.4,2.1);
+            obj2.printInfo();
+
+        }
+    }
 }
 
