@@ -17,6 +17,14 @@ public class Person {
 
     }
 
+    public Person(String firstName, String lastName, int age) {
+
+    }
+
+    public Person() {
+
+    }
+
     public void printInfo() {
         System.out.println(name + " " + age + " " + weight + " " + gender);
     }
