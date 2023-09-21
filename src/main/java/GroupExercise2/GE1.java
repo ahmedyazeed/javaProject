@@ -1,5 +1,5 @@
 package GroupExercise2;
-
+//Write a program to swap 2 String without a temporary variable?
 public class GE1 {
     public String swapStrings(String string1,String string2) {
         return string2+string1;

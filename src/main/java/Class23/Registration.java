@@ -21,6 +21,10 @@ public class Registration {
             setPassword(password);
         }
 
+    public Registration() {
+
+    }
+
     public String getEmail() {
         return email;
     }
@@ -53,6 +57,8 @@ public class Registration {
         this.password = password;
     }
 
+    public void displayRegistrationInfo() {
+    }
 }
 
 class RegistrationTester {
