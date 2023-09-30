@@ -1,3 +1,5 @@
+package HW;
+
 import java.util.Collections;
 import java.util.LinkedHashMap;
 
@@ -16,10 +18,14 @@ public class HWclass26 {
         employees.put("Kofta", 2100000);
 
         var highestSalary= Collections.max(employees.values());
+        employees.forEach((k,v)->{if (v.intValue()==highestSalary){
+            System.out.println("The employee who gets the highest salary is "+k+"="+v);
+        }});
 
-        for (var employeeEntry : employees.entrySet()) {
+  /*      for (var employeeEntry : employees.entrySet()) {
             if (employeeEntry.getValue()==highestSalary)
             {System.out.println("The employee who gets the highest salary is "+employeeEntry);}
-        }
+        }*/
+
 
     }}

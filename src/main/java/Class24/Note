@@ -3,7 +3,7 @@ Collections Framework:
      It's a collection of classes and interfaces which helps us build
      dynamic programs which are capable of handling large amounts of data.
 Why we should learn about Collections?
-     Arrays are not good and we need smth that is dynamic and more flexible;
+     Arrays are not good and we need something that is dynamic and more flexible;
      E.g:
      1) Arrays are fixed in size;
      2) No ready made methods, we have to create out own;
